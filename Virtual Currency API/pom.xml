@@ -133,6 +133,11 @@
 
 
     </dependencies>
+{
+    "deploy": {
+      "goal": "-Dtest.active=false -Dexec.mainClass=\com.rest.ApiApplication\" assembly:jar-with-dependencies exec:java"
+    }
+  }
 
     <build>
         <plugins>
